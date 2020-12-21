@@ -28,3 +28,8 @@ Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench
 - Sidecar (but we can use [Duet Display](https://www.duetdisplay.com/) as an alternative)
 - Apple Pay (doesn't work with all Hackintoshes)
 - 4K 144Hz ([a common issue in Big Sur](https://egpu.io/forums/mac-setup/4k144hz-no-longer-available-after-upgrade-to-big-sur/). 27GN950-B can only use up to 4K 95Hz without DSC)
+
+## References
+
+- [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [TRX40 Bare Metal discussions on macos86.it (specially, the post by _iGPU_ about how to get NVRAM working)](https://www.macos86.it/topic/3307-trx40-bare-metal-vanilla-patches-yes-it-worksbutproxmox-is-better/page/7/?tab=comments#comment-82868)
