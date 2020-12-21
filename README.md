@@ -9,6 +9,8 @@
 - Display: LG 27GN950-B
 - Extra Network Card: Fenvi BCM94360CD
 
+Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench.com/v5/cpu/5450605). Faster than the most expensive [28-core Mac Pro](https://browser.geekbench.com/macs/mac-pro-late-2019-intel-xeon-w-3275m-2-5-ghz-28-cores)!
+
 ## What works
 
 - Big Sur 11.1
