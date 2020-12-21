@@ -1,13 +1,13 @@
-# Hackintosh EFI for ROG Strix TRX40-E mobo
+# Hackintosh EFI for ROG Strix TRX40-E
 
-Mobo: ROG Strix TRX40-E Gaming
-CPU: AMD Ryzen Threadripper 3970x
-GPU: Sapphire NITRO+ RX 5700 XT
-RAM: CORSAIR VENGEANCE RGB PRO 16GB x 4 (3200)
-SSD: Samsung SSD 970 EVO Plus 500GB x 2
-Cooler: CORSAIR Hydro Series H115i PRO RGB 280mm (USB need to be disconnected to make sleep working)
-Display: LG 27GN950-B
-Network Card: Fenvi BCM94360CD
+- Mobo: ROG Strix TRX40-E Gaming
+- CPU: AMD Ryzen Threadripper 3970x
+- GPU: Sapphire NITRO+ RX 5700 XT
+- RAM: CORSAIR VENGEANCE RGB PRO 16GB x 4 (3200)
+- SSD: Samsung SSD 970 EVO Plus 500GB x 2
+- Cooler: CORSAIR Hydro Series H115i PRO RGB 280mm (USB need to be disconnected to make sleep working)
+- Display: LG 27GN950-B
+- Network Card: Fenvi BCM94360CD
 
 ## What works
 
