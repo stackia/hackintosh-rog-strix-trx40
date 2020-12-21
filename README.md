@@ -1,12 +1,12 @@
-# Hackintosh EFI for ROG Strix TRX40-E
+# Hackintosh EFI for ASUS ROG Strix TRX40-E
 
-- Mobo: ROG Strix TRX40-E Gaming
+- Mobo: ASUS ROG Strix TRX40-E Gaming
 - CPU: AMD Ryzen Threadripper 3970x
 - GPU: Sapphire NITRO+ RX 5700 XT
 - RAM: CORSAIR VENGEANCE RGB PRO 16GB x 4 (3200)
 - SSD: Samsung SSD 970 EVO Plus 500GB x 2
 - Cooler: CORSAIR Hydro Series H115i PRO RGB 280mm (USB need to be disconnected to make sleep working)
-- Display: LG 27GN950-B
+- Display: LG 27GN950-B / DELL U2417H / Samsung U28E850
 - Extra Network Card: Fenvi BCM94360CD
 
 Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench.com/v5/cpu/5450605). Faster than the most expensive [28-core Mac Pro](https://browser.geekbench.com/macs/mac-pro-late-2019-intel-xeon-w-3275m-2-5-ghz-28-cores)!
@@ -19,10 +19,13 @@ Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench
 - Sleep / Wake
 - Windows / macOS dual boot
 - Onboard 2.5G LAN (RTL8125)
+- HDMI / DP Audio
+- Multi-monitor setup
 
 ## What does not work
 
-- Shutdown (will instant reboot after shutdown)
+- Gracefully shutdown (will reboot instantly after shutdown)
+- Onboard Realtek USB Audio (the sound is distorted)
 - Apple Hypervisor (Docker for Mac, Parallels etc.) / Adobe ([patches](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd) available, but I don't use Adobe products)
 - Auto Unlock (can be enabled in System Preferences but actually doesn't work)
 - Sidecar (but we can use [Duet Display](https://www.duetdisplay.com/) as an alternative)
