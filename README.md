@@ -7,7 +7,7 @@
 - SSD: Samsung SSD 970 EVO Plus 500GB x 2
 - Cooler: CORSAIR Hydro Series H115i PRO RGB 280mm (USB need to be disconnected to make sleep working)
 - Display: LG 27GN950-B
-- Network Card: Fenvi BCM94360CD
+- Extra Network Card: Fenvi BCM94360CD
 
 ## What works
 
@@ -16,6 +16,7 @@
 - [Continuity](https://support.apple.com/en-us/HT204681) (except Auto Unlock / Sidecar / Apple Pay)
 - Sleep / Wake
 - Windows / macOS dual boot
+- Onboard 2.5G LAN (RTL8125)
 
 ## What does not work
 

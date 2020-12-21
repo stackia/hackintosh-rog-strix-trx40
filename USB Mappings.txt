@@ -1,0 +1,65 @@
+Onboard USB Controllers (renamed via `SSDT-USB-Reset.aml`):
+1. PCI0 XHC0 (from CPU, USB 3.2 Gen 2) --> renamed to XHC1
+2. S0D1 XHC0 (from CPU, USB 3.2 Gen 2) --> renamed to XHC2
+3. S0D2 XHC0 (from TRX40 chipset, USB 3.2 Gen 2) --> renamed to XHC3
+4. S0D2 XHC1 (from TRX40 chipset, USB 3.2 Gen 2) --> renamed to XHC4
+
+
+Onboard USB Hubs:
+- AMD TRX40 chipset (USB 2)
+- ASMedia® 1074 (USB 3.2 Gen 1 + USB2)
+
+
+Port Mappings:
+
+- Front panel Type-A ports
+  - USB3 = XHC3 Port 08 (via Hub)
+  - USB2 = XHC3 Port 02 (via Hub)
+
+- Front panel Type-C port
+  - USB3 = XHC3 Port 09
+  - USB2 = XHC3 Port 03
+
+- Backplate Row 1, all Type-A ports
+  - USB2 = XHC3 Port 01 (via Hub)
+  - no USB3
+
+- Backplate Row 2, Column 1, Type-A port
+  - USB3 = XHC1 Port 03
+  - USB2 = XHC1 Port 01
+
+- Backplate Row 2, Column 2, Type-A port
+  - USB3 = XHC1 Port 04
+  - USB2 = XHC1 Port 02
+
+- Backplate Row 2, Column 3, Type-A port
+  - USB3 = XHC2 Port 03
+  - USB2 = XHC2 Port 01
+
+- Backplate Row 2, Column 4, Type-A port
+  - USB3 = XHC2 Port 04
+  - USB2 = XHC2 Port 02
+
+- Backplate Row 3, Column 1, Type-A port
+  - USB3 = XHC4 Port 08
+  - USB2 = XHC4 Port 04
+
+- Backplate Row 3, Column 1, Type-A port
+  - USB3 = XHC4 Port 07
+  - USB2 = XHC4 Port 03
+
+- Backplate Row 4, Column 1, Type-C port
+  - USB3 = XHC4 Port 0A
+  - USB2 = XHC4 Port 02
+
+- Backplate Row 4, Column 2, Type-A port
+  - USB3 = XHC4 Port 09
+  - USB2 = XHC4 Port 01
+
+- Onboard USB2 pins = XHC4 Port 05 (via Hub)
+
+- Onboard Intel Bluetooth = XHC4 Port 06
+
+- Onboard AURA LED Controller = XHC3 Port 04/05
+
+- Onboard Realtek USB Audio = XHC3 Port 06
