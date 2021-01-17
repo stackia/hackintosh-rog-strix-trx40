@@ -5,7 +5,8 @@
 - GPU: Sapphire NITRO+ RX 5700 XT
 - RAM: CORSAIR VENGEANCE RGB PRO 16GB x 4 (3200)
 - SSD: Samsung SSD 970 EVO Plus 500GB x 2
-- Cooler: CORSAIR Hydro Series H115i PRO RGB 280mm (USB need to be disconnected to make sleep working)
+- Cooler: CORSAIR Hydro Series H115i PRO RGB 280mm
+  - Cooler's USB port is disabled in `SSDT-USB-Mapping.aml` to work with sleeping
 - Display: LG 27GN950-B / DELL U2417H / Samsung U28E850
 - Extra Network Card: Fenvi BCM94360CD
 
