@@ -676,6 +676,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -704,6 +706,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpu_topology_sort</string>
 					<key>Comment</key>
@@ -732,6 +736,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -760,6 +766,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -788,6 +796,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -816,6 +826,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -844,6 +856,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -872,6 +886,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -900,6 +916,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -928,6 +946,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -956,6 +976,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -984,6 +1006,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1012,6 +1036,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1040,6 +1066,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1068,6 +1096,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1096,6 +1126,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1124,6 +1156,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1152,6 +1186,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1180,6 +1216,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1208,6 +1246,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1236,6 +1276,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1264,6 +1306,8 @@
 					<integer>1</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1292,6 +1336,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_cpuid_set_info</string>
 					<key>Comment</key>
@@ -1320,6 +1366,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1348,6 +1396,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1376,6 +1426,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1404,6 +1456,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1432,6 +1486,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_tsc_init</string>
 					<key>Comment</key>
@@ -1460,6 +1516,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1488,6 +1546,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1516,6 +1576,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1544,6 +1606,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1572,6 +1636,8 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string>_lapic_interrupt</string>
 					<key>Comment</key>
@@ -1600,6 +1666,38 @@
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
+					<key>Base</key>
+					<string></string>
+					<key>Comment</key>
+					<string>algrey - mtrr_update_action - fix PAT</string>
+					<key>Count</key>
+					<integer>0</integer>
+					<key>Enabled</key>
+					<false/>
+					<key>Find</key>
+					<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
+					<key>Identifier</key>
+					<string>kernel</string>
+					<key>Limit</key>
+					<integer>0</integer>
+					<key>Mask</key>
+					<data>////////D////////////////w==</data>
+					<key>MaxKernel</key>
+					<string>20.99.99</string>
+					<key>MinKernel</key>
+					<string>17.0.0</string>
+					<key>Replace</key>
+					<data>uXcCAAC4BgEHALoGAQcADx9AAA==</data>
+					<key>ReplaceMask</key>
+					<data></data>
+					<key>Skip</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Arch</key>
+					<string>x86_64</string>
 					<key>Base</key>
 					<string></string>
 					<key>Comment</key>
@@ -1647,6 +1745,8 @@
 				<false/>
 				<key>PickerMode</key>
 				<string>External</string>
+				<key>PickerVariant</key>
+				<string>Modern</string>
 				<key>PollAppleHotKeys</key>
 				<false/>
 				<key>ShowPicker</key>
@@ -2110,6 +2210,8 @@
 				<integer>20</integer>
 				<key>PlayChime</key>
 				<string>Auto</string>
+				<key>SetupDelay</key>
+				<integer>0</integer>
 				<key>VolumeAmplifier</key>
 				<integer>0</integer>
 			</dict>
@@ -2211,8 +2313,6 @@
 			</dict>
 			<key>Quirks</key>
 			<dict>
-				<key>DeduplicateBootOrder</key>
-				<true/>
 				<key>ExitBootServicesDelay</key>
 				<integer>0</integer>
 				<key>IgnoreInvalidFlexRatio</key>
