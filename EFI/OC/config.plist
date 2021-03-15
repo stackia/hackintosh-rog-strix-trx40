@@ -547,6 +547,8 @@
 				<true/>
 				<key>PowerTimeoutKernelPanic</key>
 				<true/>
+				<key>SetApfsTrimTimeout</key>
+				<integer>-1</integer>
 				<key>ThirdPartyDrives</key>
 				<false/>
 				<key>XhciPortLimit</key>
@@ -1747,6 +1749,10 @@
 				<string>None</string>
 				<key>HideAuxiliary</key>
 				<false/>
+				<key>LauncherOption</key>
+				<string>Full</string>
+				<key>LauncherPath</key>
+				<string>Default</string>
 				<key>PickerAttributes</key>
 				<integer>1</integer>
 				<key>PickerAudioAssist</key>
@@ -1798,6 +1804,8 @@
 					<string>CustomOS</string>
 					<key>Path</key>
 					<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+					<key>TextMode</key>
+					<false/>
 				</dict>
 			</array>
 			<key>Security</key>
@@ -1812,8 +1820,6 @@
 				<false/>
 				<key>BlacklistAppleUpdate</key>
 				<true/>
-				<key>BootProtect</key>
-				<string>Bootstrap</string>
 				<key>DmgLoading</key>
 				<string>Signed</string>
 				<key>EnablePassword</key>
@@ -2157,20 +2163,12 @@
 					</dict>
 				</array>
 			</dict>
-			<key>UpdateDataHub</key>
-			<true/>
-			<key>UpdateNVRAM</key>
-			<true/>
-			<key>UpdateSMBIOS</key>
-			<true/>
-			<key>UpdateSMBIOSMode</key>
-			<string>Create</string>
 			<key>Generic</key>
 			<dict>
 				<key>AdviseWindows</key>
 				<false/>
-				<key>SystemMemoryStatus</key>
-				<string>Auto</string>
+				<key>MaxBIOSVersion</key>
+				<false/>
 				<key>MLB</key>
 				<string>REPLACE</string>
 				<key>ProcessorType</key>
@@ -2179,6 +2177,8 @@
 				<data>ESIzAAAA</data>
 				<key>SpoofVendor</key>
 				<true/>
+				<key>SystemMemoryStatus</key>
+				<string>Auto</string>
 				<key>SystemProductName</key>
 				<string>MacPro7,1</string>
 				<key>SystemSerialNumber</key>
@@ -2186,6 +2186,16 @@
 				<key>SystemUUID</key>
 				<string>REPLACE</string>
 			</dict>
+			<key>UpdateDataHub</key>
+			<true/>
+			<key>UpdateNVRAM</key>
+			<true/>
+			<key>UpdateSMBIOS</key>
+			<true/>
+			<key>UpdateSMBIOSMode</key>
+			<string>Create</string>
+			<key>UseRawUuidEncoding</key>
+			<false/>
 		</dict>
 		<key>UEFI</key>
 		<dict>
@@ -2218,6 +2228,8 @@
 				<integer>20</integer>
 				<key>PlayChime</key>
 				<string>Auto</string>
+				<key>ResetTrafficClass</key>
+				<false/>
 				<key>SetupDelay</key>
 				<integer>0</integer>
 				<key>VolumeAmplifier</key>
@@ -2238,8 +2250,6 @@
 				<false/>
 				<key>KeyForgetThreshold</key>
 				<integer>5</integer>
-				<key>KeyMergeThreshold</key>
-				<integer>2</integer>
 				<key>KeySupport</key>
 				<true/>
 				<key>KeySupportMode</key>
@@ -2262,6 +2272,8 @@
 				<key>DirectGopRendering</key>
 				<false/>
 				<key>ForceResolution</key>
+				<false/>
+				<key>GopPassThrough</key>
 				<false/>
 				<key>IgnoreTextInGraphics</key>
 				<false/>
@@ -2321,6 +2333,10 @@
 			</dict>
 			<key>Quirks</key>
 			<dict>
+				<key>ActivateHpetSupport</key>
+				<false/>
+				<key>DisableSecurityPolicy</key>
+				<false/>
 				<key>ExitBootServicesDelay</key>
 				<integer>0</integer>
 				<key>IgnoreInvalidFlexRatio</key>
