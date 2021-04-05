@@ -14,26 +14,32 @@ Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench
 
 ## What works
 
-- Big Sur 11.1
+- Big Sur 11.2.3
 - iServices (iMessage / FaceTime / etc.)
-- [Continuity](https://support.apple.com/en-us/HT204681) (except Auto Unlock / Sidecar / Apple Pay)
-- Sleep / Wake
+- [Continuity](https://support.apple.com/en-us/HT204681) (except Sidecar / Apple Pay)
+- Sleep / Wake / Shutdown / Restart / Wake on LAN
 - Windows / macOS dual boot
 - Onboard 2.5G LAN (RTL8125)
 - HDMI / DP Audio
 - Multi-monitor setup
+- Unlock with Apple Watch (but not 100% reliable)
 
 ## What does not work
 
-- Gracefully shutdown (will reboot instantly after shutdown)
 - Onboard Realtek USB Audio (the sound is distorted)
 - Apple Hypervisor (Docker for Mac, Parallels etc.) / Adobe ([patches](https://gist.github.com/naveenkrdy/26760ac5135deed6d0bb8902f6ceb6bd) available, but I don't use Adobe products)
-- Auto Unlock (can be enabled in System Preferences but actually doesn't work)
 - Sidecar (but we can use [Duet Display](https://www.duetdisplay.com/) as an alternative)
 - Apple Pay (doesn't work with all Hackintoshes)
 - 4K 144Hz ([a common issue in Big Sur](https://egpu.io/forums/mac-setup/4k144hz-no-longer-available-after-upgrade-to-big-sur/). 27GN950-B can only use up to 4K 95Hz without DSC)
 
+## BIOS Settings
+
+BIOS Version: 1402 (2021/01/20)
+
+- Above 4G Decoding: Enabled
+- Resizable BAR: Disabled
+
 ## References
 
 - [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
-- [TRX40 Bare Metal discussions on macos86.it (specially, the post by _iGPU_ about how to get NVRAM working)](https://www.macos86.it/topic/3307-trx40-bare-metal-vanilla-patches-yes-it-worksbutproxmox-is-better/page/7/?tab=comments#comment-82868)
+- [TRX40 Bare Metal discussions on macos86.it (specially, the post by _iGPU_ about how to get NVRAM working)](https://www.macos86.it/topic/3307-trx40-bare-metal-vanilla-patches-yes-it-worksbutproxmox-is-better/page/33/?tab=comments#comment-85469)
