@@ -245,6 +245,38 @@
 					<key>Enabled</key>
 					<true/>
 				</dict>
+				<dict>
+					<key>Address</key>
+					<integer>69793218560</integer>
+					<key>Comment</key>
+					<string>MMIO 0x1040000000 (0x10400 pages, 0x8000000000000001)</string>
+					<key>Enabled</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Address</key>
+					<integer>189783867392</integer>
+					<key>Comment</key>
+					<string>MMIO 0x2C30000000 (0x10400 pages, 0x8000000000000001)</string>
+					<key>Enabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Address</key>
+					<integer>309774516224</integer>
+					<key>Comment</key>
+					<string>MMIO 0x4820000000 (0x10400 pages, 0x8000000000000001)</string>
+					<key>Enabled</key>
+					<false/>
+				</dict>
+				<dict>
+					<key>Address</key>
+					<integer>429765165056</integer>
+					<key>Comment</key>
+					<string>MMIO 0x6410000000 (0x10400 pages, 0x8000000000000001)</string>
+					<key>Enabled</key>
+					<true/>
+				</dict>
 			</array>
 			<key>Quirks</key>
 			<dict>
@@ -275,7 +307,7 @@
 				<key>ProvideCustomSlide</key>
 				<true/>
 				<key>ProvideMaxSlide</key>
-				<integer>0</integer>
+				<integer>170</integer>
 				<key>RebuildAppleMemoryMap</key>
 				<true/>
 				<key>SetupVirtualMap</key>
