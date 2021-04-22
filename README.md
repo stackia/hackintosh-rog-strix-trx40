@@ -14,7 +14,7 @@ Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench
 
 ## What works
 
-- Big Sur 11.2.3
+- Big Sur 11.3
 - iServices (iMessage / FaceTime / etc.)
 - [Continuity](https://support.apple.com/en-us/HT204681) (except Sidecar / Apple Pay)
 - Sleep / Wake / Shutdown / Restart / Wake on LAN
@@ -22,7 +22,7 @@ Geekbench result: [1207 single-core, 25169 multi-core](https://browser.geekbench
 - Onboard 2.5G LAN (RTL8125)
 - HDMI / DP Audio
 - Multi-monitor setup
-- Unlock with Apple Watch (but not 100% reliable)
+- Unlock with Apple Watch
 
 ## What does not work
 
